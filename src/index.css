@@ -1,0 +1,33 @@
+body{
+    background-color: #f3f3f5;
+    font-family: cursive;
+}
+.container{
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.container h1{
+    text-align: center;
+}
+.box{
+    display:flex;
+    justify-content: space-around;
+    padding: 10px;
+    text-align: center;
+}
+.contante{
+    width: 25%;
+    height: auto;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px 0 rgb(133, 133, 133);
+}
+img{
+    max-width: 300px;
+    height: 350px;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+}
