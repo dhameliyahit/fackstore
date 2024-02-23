@@ -1,5 +1,6 @@
 import './index.css';
-import React,{UseState, UseEffect, useState, useEffect} from 'react';
+import {useState, useEffect} from 'react';
+
 const App=()=>{
   const [fake,setFake]= useState([])
   console.log(fake)
@@ -25,7 +26,7 @@ const App=()=>{
               <div className="contante">
                   <h1>{values.title}</h1>
                   <p>{values.description}</p>
-                  <img src={values.image} alt="" />
+                  <img src={values.image} alt="img" className='center' />
               </div>
           </div>
             </>

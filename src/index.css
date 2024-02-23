@@ -1,3 +1,4 @@
+
 body{
     background-color: #f3f3f5;
     font-family: cursive;
@@ -15,19 +16,24 @@ body{
     justify-content: space-around;
     padding: 10px;
     text-align: center;
+    text-wrap: wrap;
 }
 .contante{
-    width: 25%;
+    width: 80%;
     height: auto;
     border: 2px solid black;
-    margin: 10px;
-    padding: 10px;
     box-shadow: 10px 10px 10px 0 rgb(133, 133, 133);
 }
 img{
-    max-width: 300px;
-    height: 350px;
+    max-width: 40%;
+    height: auto;
     object-fit: contain;
     display: flex;
     justify-content: center;
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
