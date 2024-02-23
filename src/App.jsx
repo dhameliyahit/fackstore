@@ -18,7 +18,7 @@ const App=()=>{
   return (
 
     <div className="container">
-        <h1>Wellcome to Fake Store</h1>
+        <h1>Wellcome to Fake Store by HD</h1>
         {fake.map((values)=>{
           return(
             <>
